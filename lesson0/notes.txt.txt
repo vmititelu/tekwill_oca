@@ -1,0 +1,13 @@
+Students Contacs
+Slack setup
+GitHub Repo
+GitBash
+Folder structure
+Docs shareing
+First push
+JDK
+Netbeans
+InteliJ
+Eclispe
+Notepad++
+maven
