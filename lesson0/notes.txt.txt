@@ -11,3 +11,18 @@ InteliJ
 Eclispe
 Notepad++
 maven
+
+$ git commit -am "primul commit"
+[master (root-commit) e4698e8] primul commit
+ 1 file changed, 13 insertions(+)
+ create mode 100644 lesson0/notes.txt.txt
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 368 bytes | 368.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/vmititelu/tekwill_oca.git
+ * [new branch]      master -> master
