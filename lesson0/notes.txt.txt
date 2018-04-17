@@ -28,3 +28,5 @@ To https://github.com/vmititelu/tekwill_oca.git
  * [new branch]      master -> master
 
 Adaug ceva
+
+Iata ca a trecut si Pastele!!!
