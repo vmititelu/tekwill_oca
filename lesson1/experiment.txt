@@ -2,3 +2,76 @@ creeam un fisier simplu ca experiment
 
 Hai sa mai schimb o data
 Alt commit
+
+Vrem sa apara ViEditor
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git add .
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git commit -am "Oare se va primi?"
+[master 0f0f875] Oare se va primi?
+ 1 file changed, 1 insertion(+)
+ create mode 100644 lesson1/experiment.txt
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 361 bytes | 361.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/vmititelu/tekwill_oca.git
+   f017b04..0f0f875  master -> master
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git commit -am "lesson 1 commit!"
+[master abe4ddc] lesson 1 commit!
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 375 bytes | 375.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/vmititelu/tekwill_oca.git
+   0f0f875..abe4ddc  master -> master
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git push origin master
+Everything up-to-date
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git commit -a "lesson 1 commit 2!"
+fatal: Paths with -a does not make sense.
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git commit -m "lesson 1 commit 2!"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   experiment.txt
+
+no changes added to commit
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git commit -am "lesson 1 commit 2!"
+[master 137f6a5] lesson 1 commit 2!
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+User@DESKTOP-L69TMJ9 MINGW64 /d/projects/tekwill/src/tekwill_oca/lesson1 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 359 bytes | 359.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vmititelu/tekwill_oca.git
+   abe4ddc..137f6a5  master -> master
+
