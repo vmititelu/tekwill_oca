@@ -73,11 +73,22 @@ public class League {
         
         //Search names
         System.out.println("");
-        String searchBy = "";
-
+        for (Player thePlayer: team2.playerArray) {
+            String lastName = thePlayer.playerName.substring(thePlayer.playerName.indexOf(" "), thePlayer.playerName.length());
+            if (lastName.matches(".*Sab.*")) {
+                System.out.println("Found " + thePlayer.playerName);
+            }
+        }
         
         //Lastname, Firstname
- 
-         
+        StringBuilder familyNameFirst = new StringBuilder();
+        for (Player thePlayer: team1.playerArray) {
+            String[] name = thePlayer.playerName.split(" ");
+            familyNameFirst.append(name[1]);
+            familyNameFirst.append(", ");
+            familyNameFirst.append(name[0]);
+            System.out.println(familyNameFirst);
+            familyNameFirst.delete(0,familyNameFirst.length());  
+        } 
     }   
 }
