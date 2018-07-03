@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1e3f31-dd4f-4db2-a1c4-52fff4a6da0d" name="Default" comment="" />
+    <list default="true" id="05675cd5-e001-484c-85f6-6e3958912e2c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,20 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice_12_3/ShoppingCart.java">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practice_14_1/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/practice_12_3/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="794">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +29,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/practice_12_3/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/practice_14_1/TestClass.java" />
       </list>
     </option>
   </component>
@@ -49,26 +43,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Practice_12-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice_12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice_14-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice_14-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Practice_12-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice_12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice_14-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice_14-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Practice_12-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice_12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice_14-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice_14-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_12_3" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_14_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -92,13 +86,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ShoppingCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_12_3.ShoppingCart" />
-      <module name="Practice_12-3" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_14_1.TestClass" />
+      <module name="Practice_14-1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_12_3.*" />
+          <option name="PATTERN" value="practice_14_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,7 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShoppingCart" />
+        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +149,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b1e3f31-dd4f-4db2-a1c4-52fff4a6da0d" name="Default" comment="" />
-      <created>1528389979708</created>
+      <changelist id="05675cd5-e001-484c-85f6-6e3958912e2c" name="Default" comment="" />
+      <created>1528991859833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528389979708</updated>
+      <updated>1528991859833</updated>
     </task>
     <servers />
   </component>
@@ -192,38 +186,47 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice_12_3/ShoppingCart.java">
+    <entry file="file://$PROJECT_DIR$/src/practice_14_1/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="1037">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice_12_3/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/practice_14_1/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="680">
+          <caret line="40" column="115" selection-start-line="40" selection-start-column="115" selection-end-line="40" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice_12_3/ShoppingCart.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="202">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice_12_3/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/practice_14_1/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="794">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
